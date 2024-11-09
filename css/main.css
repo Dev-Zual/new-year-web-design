@@ -15,6 +15,9 @@ p {
   padding: 0px;
   margin: 0px;
 }
+p {
+  color: rgba(7, 2, 17, 0.6);
+}
 .container {
   width: 1220px;
   margin: 0 auto;
@@ -126,6 +129,7 @@ p {
 
 .welcome-left p {
   font-size: 1.125rem;
+  color: #fff;
   line-height: 30px;
   margin: 30px 0px;
 }
@@ -193,7 +197,7 @@ p {
 .coming-left p {
   line-height: 32px;
   font-size: 1.25rem;
-  color: #070211;
+
   font-weight: 400;
 }
 .coming-middle {
@@ -218,7 +222,6 @@ p {
   margin: 20px 0px;
   font-size: 1.25rem;
   line-height: 32px;
-  color: #070211;
 }
 
 .coming-right img {
@@ -230,7 +233,7 @@ p {
 }
 .function-area {
   background-image: url("../resources/Rectangle-2.png");
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: bottom;
 }
 .function-top {
@@ -279,5 +282,41 @@ p {
   width: 100%;
 }
 .img-right img {
-    width: 41%;
+  width: 41%;
+}
+.portfolio-area {
+  margin: 100px 0px;
+}
+
+.portfolio-text h4 {
+  font-size: 1.5rem;
+  color: #ff0000;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.portfolio-text h1 {
+  font-size: 3rem;
+  color: #070211;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Merriweather", serif;
+  margin: 10px 0px;
+}
+
+.portfolio-text p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+.portfolio-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.image-card img {
+  width: 100%;
 }
