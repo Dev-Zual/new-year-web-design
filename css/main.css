@@ -88,13 +88,13 @@ p {
   column-gap: 20px;
 }
 .welcome-left button {
-    background: transparent;
-    outline: none;
-    color: #fff;
-    padding: 15px 20px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    cursor: pointer;
+  background: transparent;
+  outline: none;
+  color: #fff;
+  padding: 15px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .welcome-left {
@@ -106,9 +106,9 @@ p {
 }
 
 .welcome-area {
-color: #fff;
-    margin: 120px 0px;
-    border-radius: 10px;
+  color: #fff;
+  margin: 120px 0px;
+  border-radius: 10px;
   padding: 125px;
   background: rgb(7, 2, 17);
   background: linear-gradient(
@@ -118,105 +118,166 @@ color: #fff;
   );
 }
 .welcome-left h1 {
-    font-family: "Merriweather", serif;
-    font-size: 4rem;
-    line-height: 88px;
-    font-weight: 700;
+  font-family: "Merriweather", serif;
+  font-size: 4rem;
+  line-height: 88px;
+  font-weight: 700;
 }
 
 .welcome-left p {
-    font-size: 1.125rem;
-    line-height: 30px;
-    margin: 30px 0px;
+  font-size: 1.125rem;
+  line-height: 30px;
+  margin: 30px 0px;
 }
 .welcome-right img {
-    width: 100%;
+  width: 100%;
 }
 .join-now-area {
-    padding: 100px;
-    border-radius: 10px;
-background: rgb(255,0,0);
-background: linear-gradient(180deg, rgba(255,0,0,0.12368697478991597) 0%, rgba(255,0,0,0) 100%);
+  padding: 100px;
+  border-radius: 10px;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.12368697478991597) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
 }
 .join-now-text {
-    text-align: center;
+  text-align: center;
 }
 
-.join-now-text span {color: #FF0000;font-size: 2rem;font-weight: 400;}
+.join-now-text span {
+  color: #ff0000;
+  font-size: 2rem;
+  font-weight: 400;
+}
 .join-now-text h2 {
-    color: #070211;
-    font-size: 2rem;
-    font-weight: 500;
+  color: #070211;
+  font-size: 2rem;
+  font-weight: 500;
   margin: 15px;
 }
 .join-now-text button {
-    padding: 10px 15px;
-    background: #FF0000;
-    border: none;
-    color: #fff;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 1.25rem;
-    margin-top: 30px;
+  padding: 10px 15px;
+  background: #ff0000;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-top: 30px;
 }
 .coming-area {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 25px;
-    margin: 100px 0px;
-   
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 25px;
+  margin: 100px 0px;
+
+  align-items: center;
 }
 
 .coming-left h3 {
-    font-size: 1.5rem;
-    color: #FF0000;
-    font-weight: 500;
+  font-size: 1.5rem;
+  color: #ff0000;
+  font-weight: 500;
 }
 
 .coming-left h1 {
-    font-size: 3rem;
-    color: #070211;
-    font-weight: 600;
-    font-style: normal;
-    margin: 20px 0px;
+  font-size: 3rem;
+  color: #070211;
+  font-weight: 600;
+  font-style: normal;
+  margin: 20px 0px;
 }
 
 .coming-left p {
-    line-height: 32px;
-    font-size: 1.25rem;
-    color: #070211;
-    font-weight: 400;
+  line-height: 32px;
+  font-size: 1.25rem;
+  color: #070211;
+  font-weight: 400;
 }
 .coming-middle {
-    padding: 30px;
-    text-align: center;
-    border: 9px solid #FF0000;
-    border-radius: 50%;
+  padding: 30px;
+  text-align: center;
+  border: 9px solid #ff0000;
+  border-radius: 50%;
 }
 
 .coming-middle img {
-    width: 100%;
+  width: 100%;
 }
 
 .coming-right h1 {
-    font-size: 3rem;
-    color: #FF0000;
-    font-weight: 700;
-    font-style: normal;
+  font-size: 3rem;
+  color: #ff0000;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .coming-right p {
-    margin: 20px 0px;
-    font-size: 1.25rem;
-    line-height: 32px;
-    color: #070211;
+  margin: 20px 0px;
+  font-size: 1.25rem;
+  line-height: 32px;
+  color: #070211;
 }
 
 .coming-right img {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .coming-right {
-    margin-left: 38px;
+  margin-left: 38px;
+}
+.function-area {
+  background-image: url("../resources/Rectangle-2.png");
+    background-repeat: no-repeat;
+  background-position: bottom;
+}
+.function-top {
+  text-align: center;
+}
+
+.function-top h4 {
+  font-size: 1.5rem;
+  color: #070211;
+  font-weight: 400;
+}
+
+.function-top h1 {
+  color: #070211;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: "Merriweather", serif;
+  margin: 20px 0px;
+}
+
+.function-top span {
+  color: #ff0000;
+}
+
+.function-top p {
+  font-size: 1.25rem;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0px 107px;
+}
+.function-bottom {
+  display: flex;
+  margin-top: 40px;
+  column-gap: 50px;
+}
+
+.img-left {
+  width: 50%;
+}
+
+.img-right {
+  width: 50%;
+}
+
+.img-left img {
+  width: 100%;
+}
+.img-right img {
+    width: 41%;
 }
