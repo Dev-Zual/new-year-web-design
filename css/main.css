@@ -159,3 +159,64 @@ background: linear-gradient(180deg, rgba(255,0,0,0.12368697478991597) 0%, rgba(2
     font-size: 1.25rem;
     margin-top: 30px;
 }
+.coming-area {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 25px;
+    margin: 100px 0px;
+   
+    align-items: center;
+}
+
+.coming-left h3 {
+    font-size: 1.5rem;
+    color: #FF0000;
+    font-weight: 500;
+}
+
+.coming-left h1 {
+    font-size: 3rem;
+    color: #070211;
+    font-weight: 600;
+    font-style: normal;
+    margin: 20px 0px;
+}
+
+.coming-left p {
+    line-height: 32px;
+    font-size: 1.25rem;
+    color: #070211;
+    font-weight: 400;
+}
+.coming-middle {
+    padding: 30px;
+    text-align: center;
+    border: 9px solid #FF0000;
+    border-radius: 50%;
+}
+
+.coming-middle img {
+    width: 100%;
+}
+
+.coming-right h1 {
+    font-size: 3rem;
+    color: #FF0000;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.coming-right p {
+    margin: 20px 0px;
+    font-size: 1.25rem;
+    line-height: 32px;
+    color: #070211;
+}
+
+.coming-right img {
+    margin-top: 25px;
+}
+
+.coming-right {
+    margin-left: 38px;
+}
