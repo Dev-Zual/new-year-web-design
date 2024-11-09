@@ -55,30 +55,79 @@ p {
   line-height: 100px;
 }
 .discount-area {
-    text-align: center;
+  text-align: center;
 }
 
 .discount-area h1 {
-    color: #FF0000;
-    font-size: 5.5rem;
-    font-weight: 700;
-    font-style: normal;
+  color: #ff0000;
+  font-size: 5.5rem;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .discount-area h3 {
-    color: #FF0000;
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-style: normal;
-    margin: 30px 0px 10px;
+  color: #ff0000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: normal;
+  margin: 30px 0px 10px;
 }
 
 .discount-area h2 {
-    color: #070211;
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 34px;
+  color: #070211;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 34px;
 }
 
-.discount-area img {
+.welcome-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.welcome-left button {
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.welcome-left {
+  width: 70%;
+}
+
+.welcome-right {
+  width: 30%;
+}
+
+.welcome-area {
+color: #fff;
+    margin: 120px 0px;
+    border-radius: 10px;
+  padding: 125px;
+  background: rgb(7, 2, 17);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 2, 17, 1) 2%,
+    rgba(7, 2, 17, 0) 100%
+  );
+}
+.welcome-left h1 {
+    font-family: "Merriweather", serif;
+    font-size: 4rem;
+    line-height: 88px;
+    font-weight: 700;
+}
+
+.welcome-left p {
+    font-size: 1.125rem;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+.welcome-right img {
+    width: 100%;
 }
