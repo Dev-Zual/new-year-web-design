@@ -30,6 +30,7 @@ p {
 }
 .bg-blur {
   background-color: rgb(16 16 16 / 50%);
+  border-radius: 10px;
 }
 .header-text {
   color: #fff;
@@ -130,4 +131,31 @@ color: #fff;
 }
 .welcome-right img {
     width: 100%;
+}
+.join-now-area {
+    padding: 100px;
+    border-radius: 10px;
+background: rgb(255,0,0);
+background: linear-gradient(180deg, rgba(255,0,0,0.12368697478991597) 0%, rgba(255,0,0,0) 100%);
+}
+.join-now-text {
+    text-align: center;
+}
+
+.join-now-text span {color: #FF0000;font-size: 2rem;font-weight: 400;}
+.join-now-text h2 {
+    color: #070211;
+    font-size: 2rem;
+    font-weight: 500;
+  margin: 15px;
+}
+.join-now-text button {
+    padding: 10px 15px;
+    background: #FF0000;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 30px;
 }
